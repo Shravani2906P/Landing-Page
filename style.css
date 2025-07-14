@@ -9,10 +9,12 @@ html{
 
 }
 h2{
-    font-size:30px;
+    font-size:50px;
     text-align: center;
     margin: 10px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "VT323", monospace;
+    font-weight: 550;
+    /* font-family: "Josefin Sans", sans-serif; */
 }
 
 h1{
@@ -239,7 +241,6 @@ justify-content: center;
 }
 .certificates{
     text-align:center;
-    height:100vh;
     background: linear-gradient(to right, #b1b8c5, #fdf6e3);;
     padding: 20px;
 }
