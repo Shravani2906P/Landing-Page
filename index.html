@@ -15,14 +15,20 @@
        <div class="logo">
         Portfolio
        </div> 
-       <div class="header-link">
+       <div class="header-link" id="navLinks">
         <a href="Resume.pdf" target="_blank">_Resume</a>
         <a href="#aboutme">_About Me</a>
         <a href="#projects">_Projects</a>
         <a href="#certificates">_Certificates</a>
        </div>
+
+       <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
        </div>
     </div>
+    
     <div class="content">
         <div class="content-left">
             <div class="name">
@@ -35,7 +41,7 @@
         </div>
         <div class="image">
             <div class="image-border">
-                <img src="profile.png" alt="Profile Picture">
+                <img class="profile" src="profile.png" alt="Profile Picture">
             </div>
         </div>
     </div>
@@ -66,16 +72,26 @@
 
             <div class="project-card">
                 <div class="project-image">
-                    <a href=""><img src="ResumeBuilder.png" alt=""></a>
+                    <a href="https://shravani2906p.github.io/Resume-builder/" target="_blank"><img src="ResumeBuilder.png" alt="Resume Bulder Web App"></a>
                 </div>
                 <div class="project-title">
                     <h3>Resume Builder</h3>
-                    <p class="project-description">Brief project description goes here.</p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Vite</span>
+                        <span class="tech">CSS</span>
+                        <span class="tech">jsPDF & html2canvas</span>
+                        <span class="tech">Firebase Auth</span>
+                    </div>
+                    <p class="project-description">
+                        A web-based platform that lets users 
+                        create, customize, and download professional resumes
+                        using pre-designed templates. </p>
                 </div>
                 
             </div>
 
-            <div class="project-card">
+            <!-- <div class="project-card">
                 <div class="project-image"></div>
                 <h3 class="project-title">Project Title</h3>
     <p class="project-description">Brief project description goes here.</p>
@@ -89,7 +105,7 @@
                 <div class="project-image"></div>
                 <h3 class="project-title">Project Title</h3>
     <p class="project-description">Brief project description goes here.</p>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -100,7 +116,8 @@
             <div class="certificate-item">
                 <img src="Shravani Pachkawade - Python[1].png" alt="Certificate 1" >
             </div>
-            <div class="certificate-item">
+
+            <!-- <div class="certificate-item">
                 <img src="alternate.jpeg" alt="Certificate 1">
             </div>
             <div class="certificate-item">
@@ -114,7 +131,7 @@
             </div>
             <div class="certificate-item">
                 <img src="alternate.jpeg" alt="Certificate 1">
-            </div>
+            </div> -->
     </div>
     </div>
 
